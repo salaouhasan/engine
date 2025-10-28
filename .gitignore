@@ -1,26 +1,38 @@
-# Build files
-build/
-*.o
-*.obj
-*.exe
-*.dll
-*.lib
+# Build directories
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
 
-# CMake files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# VS/IDE files
-.vscode/
-*.user
+# Visual Studio
 *.suo
+*.user
+*.userosscache
 *.vcxproj*
-*.xcodeproj/
+*.vcxproj.filters
+*.ipch
+*.pdb
+*.idb
 
-# vcpkg (optional: don't push binaries)
-installed/
+# VS Code
+.vscode/
+
+# vcpkg (optional: skip binaries)
+vcpkg/installed/
 vcpkg/buildtrees/
 vcpkg/packages/
-vcpkg/installed/ # optional, sometimes push if you want reproducible builds
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Shader binaries / compiled outputs
+*.spv
+*.glslc
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+C:/Users/USER/source/repos/Engine/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/USER/source/repos/Engine/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/USER/source/repos/Engine/out/build/x64-debug/Engine/CMakeFiles/Engine.dir
+C:/Users/USER/source/repos/Engine/out/build/x64-debug/Engine/CMakeFiles/edit_cache.dir
+C:/Users/USER/source/repos/Engine/out/build/x64-debug/Engine/CMakeFiles/rebuild_cache.dir
