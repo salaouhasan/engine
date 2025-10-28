@@ -1,0 +1,14 @@
+{
+	"name": "game-engine-prototype",
+	"version": "0.1.0",
+	"dependencies": [
+		"glfw3",
+		"glad",
+		"glm",
+		"spdlog",
+		"entt",
+		"stb",
+		"yaml-cpp",
+		"imgui"
+	]
+}

@@ -1,0 +1,26 @@
+# Build files
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS/IDE files
+.vscode/
+*.user
+*.suo
+*.vcxproj*
+*.xcodeproj/
+
+# vcpkg (optional: don't push binaries)
+installed/
+vcpkg/buildtrees/
+vcpkg/packages/
+vcpkg/installed/ # optional, sometimes push if you want reproducible builds
